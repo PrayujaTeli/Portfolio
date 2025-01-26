@@ -1,5 +1,5 @@
 <h1>👋 Hey there! I'm Prayuja Teli</h1>
-A passionate computer science graduate student at Drexel University in Philadelphia. 
+A passionate computer science graduate student at Drexel University in Philadelphia and Senior Data Analyst with 5+ years of experience in the Healthcare, IT, and Supply Chain Management industries. 
 
 <p align="middle">
 
