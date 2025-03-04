@@ -3,7 +3,8 @@ const https = require("https");
 process = require("process");
 require("dotenv").config();
 
-const GITHUB_TOKEN = process.env.REACT_APP_GITHUB_TOKEN;
+// Correctly access environment variables
+const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
 const GITHUB_USERNAME = process.env.GITHUB_USERNAME;
 const USE_GITHUB_DATA = process.env.USE_GITHUB_DATA;
 const MEDIUM_USERNAME = process.env.MEDIUM_USERNAME;
@@ -16,8 +17,10 @@ const ERR = {
   requestFailedMedium:
     "The request to Medium didn't succeed. Check if Medium username in your .env file is correct."
 };
+
+// Check if GITHUB_USERNAME is defined before proceeding
 if (USE_GITHUB_DATA === "true") {
-  if (GITHUB_USERNAME === undefined) {
+  if (!GITHUB_USERNAME) {
     throw new Error(ERR.noUserName);
   }
 
@@ -56,6 +59,7 @@ if (USE_GITHUB_DATA === "true") {
 }
 `
   });
+
   const default_options = {
     hostname: "api.github.com",
     path: "/graphql",
@@ -94,7 +98,8 @@ if (USE_GITHUB_DATA === "true") {
   req.end();
 }
 
-if (MEDIUM_USERNAME !== undefined) {
+// Fetch Medium blog data if username is provided
+if (MEDIUM_USERNAME) {
   console.log(`Fetching Medium blogs data for ${MEDIUM_USERNAME}`);
   const options = {
     hostname: "api.rss2json.com",
@@ -108,7 +113,7 @@ if (MEDIUM_USERNAME !== undefined) {
 
     console.log(`statusCode: ${res.statusCode}`);
     if (res.statusCode !== 200) {
-      throw new Error(ERR.requestMediumFailed);
+      throw new Error(ERR.requestFailedMedium);
     }
 
     res.on("data", d => {

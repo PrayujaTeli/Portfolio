@@ -1,9 +1,9 @@
 @import "../../_globalColor";
-
 .card-image {
   max-width: 100%;
-  height: auto;
-  width: 250px;
+  width: 100%;
+  height: 100%; /* Make it fill the .project-image container */
+  object-fit: cover; /* Ensure the image covers the space without distortion */
 }
 .card-title {
   color: $titleColor;
@@ -51,7 +51,8 @@
 }
 .project-image {
   position: relative;
-  height: 250px;
+  height: 150px; /* Increase height */
+  width: 100%; /* Ensure full width */
   overflow: hidden;
   display: flex;
   justify-content: center;
