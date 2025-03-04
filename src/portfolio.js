@@ -188,7 +188,7 @@ const workExperiences = {
       role: "Senior Data Analyst",
       company: "Krishagni Solutions Pvt Ltd (OpenSpecimen Bio-banking LIMS)",
       companylogo: require("./assets/images/krishagniLogo.png"),
-      date: "Jan 2022 - Sep 2023",
+      date: "Apr 2019 - Sep 2023",
       desc: "A Senior Data Analyst",
       descBullets: [
         "Created 25+ Tableau dashboards analyzing patient trends in COVID-19, Alzheimer’s, HIV, and cancer.",
