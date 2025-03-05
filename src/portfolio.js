@@ -174,7 +174,7 @@ const workExperiences = {
   display: true, // Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Data System Analyst Intern",
+      role: "Systems Analyst Intern (Data Processing)",
       company: "McCollister’s Global Services, Inc.",
       companylogo: require("./assets/images/mccollistersLogo.jpg"),
       date: "Jul 2024 - Jan 2025",
