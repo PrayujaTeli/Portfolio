@@ -12,7 +12,6 @@ const splashScreen = {
 };
 
 // Summary And Greeting Section
-
 const illustration = {
   animated: true // Set to false to use static SVG
 };
@@ -186,7 +185,7 @@ const workExperiences = {
       company: "Krishagni Solutions Pvt Ltd (OpenSpecimen Bio-banking LIMS)",
       companylogo: require("./assets/images/krishagniLogo.png"),
       date: "Apr 2019 - Sep 2023",
-      desc: "A Senior Data Analyst",
+      desc: "Data Analyst",
       descBullets: [
         "Created 25+ Tableau dashboards analyzing patient trends in COVID-19, Alzheimer’s, HIV, and cancer.",
         "Cleaned 200+ research documents, improving workflow efficiency by 35% and researcher adoption.",
@@ -236,11 +235,11 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/HealthCare.png"),
-      projectName: "VitalGuard Analysis",
-      projectDesc: "Sucide Dataset Analysis",
+      projectName: "HealthCare Analysis",
+      projectDesc: "HealthCare Analysis",
       footerLink: [
         {
-          name: "HealthCare Data Analysis",
+          name: "Visit Dashboard",
           url: "https://public.tableau.com/views/HealthcareDataViz_17417645597010/CostDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link"
         }
       ]
