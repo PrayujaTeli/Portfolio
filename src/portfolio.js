@@ -114,7 +114,6 @@ softwareSkills: [
 ],
 display: true // Set false to hide this section
 };
-
 // Education Section
 
 const educationInfo = {
