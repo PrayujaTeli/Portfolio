@@ -226,25 +226,25 @@ const bigProjects = {
   subtitle: "HERE ARE SOME DASHBOARDS I CREATED ON TABLEAU PUBLIC",
   projects: [
     {
-      image: require("./assets/images/Red30.png"),
-      projectName: "Sales Analysis",
-      projectDesc: "Red30 Tech Sales Analysis",
+      image: require("./assets/images/Dashboard.png"),
+      projectName: "Flight Data Analysis",
+      projectDesc: "Flight Data Analysis",
       footerLink: [
         {
           name: "Visit Dashboard",
-          url: "https://public.tableau.com/app/profile/prayuja.teli/viz/Red30TechSalesAnalysis/Dashboard1"
+          url: "https://public.tableau.com/shared/D88W2W86M?:display_count=n&:origin=viz_share_link"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/VitalGuardAnalytics.png"),
+      image: require("./assets/images/HealthCare.png"),
       projectName: "VitalGuard Analysis",
       projectDesc: "Sucide Dataset Analysis",
       footerLink: [
         {
-          name: "Visit Dashboard",
-          url: "https://public.tableau.com/app/profile/prayuja.teli/viz/VitalGuardAnalytics/Dashboard1"
+          name: "HealthCare Data Analysis",
+          url: "https://public.tableau.com/views/HealthcareDataViz_17417645597010/CostDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link"
         }
       ]
     }
