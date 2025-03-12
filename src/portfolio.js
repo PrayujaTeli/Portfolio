@@ -23,7 +23,7 @@ const greeting = {
   username: "Prayuja Teli",
   title: "Hi all, I'm Prayuja",
   subTitle: emoji(
-    "I’m Prayuja Teli, a Senior Data Analyst with over 5 years of experience in the Healthcare, Information Technology, and Supply Chain Management industries, specializing in analyzing datasets related to COVID-19, breast cancer, diabetes, Alzheimer’s, and kidney disease. I excel in Python, SQL, and data visualization tools. Currently pursuing graduate studies at Drexel University, I recently served my Co-Op as a Data System Analyst Intern at McCollister’s Global Services."
+    "A Data Analyst with over 5 years of experience in the Healthcare, Information Technology, and Supply Chain Management industries, specializing in analyzing datasets related to COVID-19, breast cancer, diabetes, Alzheimer’s, and kidney disease. I excel in Python, SQL, and data visualization tools. Currently pursuing graduate studies at Drexel University, I recently served my Co-Op as a Data System Analyst Intern at McCollister’s Global Services."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1MRnP7CF56BfdEcoBtwDOhul_H0UIespz/view?usp=sharing", // Set to empty to hide the button
@@ -185,7 +185,7 @@ const workExperiences = {
             ]
     },
     {
-      role: "Senior Data Analyst",
+      role: "Data Analyst",
       company: "Krishagni Solutions Pvt Ltd (OpenSpecimen Bio-banking LIMS)",
       companylogo: require("./assets/images/krishagniLogo.png"),
       date: "Apr 2019 - Sep 2023",
@@ -212,8 +212,7 @@ const workExperiences = {
 };
 
 
-/* Your Open Source Section to View Your Github Pinned Projects
-To know how to get github key look at readme.md */
+
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
