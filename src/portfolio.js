@@ -228,7 +228,6 @@ const bigProjects = {
           name: "Visit Dashboard",
           url: "https://public.tableau.com/views/BritishAirwaysReviews_17417630078210/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link"
         }
-        //  you can add extra buttons here.
       ]
     },
     {
