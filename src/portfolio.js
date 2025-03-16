@@ -233,7 +233,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/HealthCare.png"),
+      image: require("./assets/images/Healthcare.png"),
       projectName: "HealthCare Analysis",
       projectDesc: "HealthCare Analysis",
       footerLink: [
