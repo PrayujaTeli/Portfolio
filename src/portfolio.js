@@ -223,7 +223,6 @@ const bigProjects = {
     {
       image: require("./assets/images/Dashboard.png"),
       projectName: "Flight Data Analysis",
-      projectDesc: "Flight Data Analysis",
       footerLink: [
         {
           name: "Visit Dashboard",
@@ -235,7 +234,6 @@ const bigProjects = {
     {
       image: require("./assets/images/Healthcare.png"),
       projectName: "HealthCare Analysis",
-      projectDesc: "HealthCare Analysis",
       footerLink: [
         {
           name: "Visit Dashboard",
