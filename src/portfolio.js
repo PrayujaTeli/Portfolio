@@ -180,7 +180,7 @@ const workExperiences = {
             ]
     },
     {
-      role: "Data Analyst",
+      role: "Associate Data Analyst",
       company: "Krishagni Solutions Pvt Ltd (OpenSpecimen Bio-banking LIMS)",
       companylogo: require("./assets/images/krishagniLogo.png"),
       date: "Apr 2019 - Sep 2023",
