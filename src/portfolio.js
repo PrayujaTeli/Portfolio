@@ -19,7 +19,7 @@ const greeting = {
   username: "Prayuja Teli",
   title: "Hi all, I'm Prayuja",
   subTitle: emoji(
-    "A Data Analyst with over 5 years of experience in the Healthcare, Information Technology, and Supply Chain Management industries, specializing in analyzing datasets related to COVID-19, breast cancer, diabetes, Alzheimer’s, and kidney disease. I excel in Python, SQL, and data visualization tools. Currently pursuing graduate studies at Drexel University, I recently served my Co-Op as a Data System Analyst Intern at McCollister’s Global Services."
+    "A Data Analyst with over 6 years of experience in the Healthcare, Information Technology, and Supply Chain Management industries, specializing in analyzing datasets related to COVID-19, breast cancer, diabetes, Alzheimer’s, and kidney disease. I excel in Python, SQL, and data visualization tools. Alma mater: Drexel University"
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
