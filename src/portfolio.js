@@ -173,7 +173,7 @@ const workExperiences = {
       company: "McCollister’s Global Services, Inc.",
       companylogo: require("./assets/images/mccollistersLogo.jpg"),
       date: "Jul 2024 - Jan 2025",
-      desc: "A Data System Analyst Intern",
+      desc: " Data System Analyst Intern",
       descBullets: [
         "Generated a Power BI dashboard for payroll to reduce discrepancies by 15% and cut processing time by 20%.",
         "Analyzed over 200,000 logistics records to optimize transportation routes and reduce costs by 15%."
@@ -197,7 +197,7 @@ const workExperiences = {
       company: "eClerx Pvt Ltd",
       companylogo: require("./assets/images/eClerxLogo.jpeg"),
       date: "Jun 2018 - Mar 2019",
-      desc: "A Analyst",
+      desc: " Analyst",
       descBullets: [
         "Built Tableau dashboards for KPIs across 7+ areas, enhancing technician tracking and decisions by 20%.",
         "Developed linear regression models to forecast technician requests, optimizing resource allocation by 25%."
