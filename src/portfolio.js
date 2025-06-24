@@ -221,12 +221,12 @@ const bigProjects = {
   subtitle: "HERE ARE SOME DASHBOARDS I CREATED ON TABLEAU PUBLIC",
   projects: [
     {
-      image: require("./assets/images/Dashboard.png"),
-      projectName: "Flight Data Analysis",
+      image: require("./assets/images/US.png"),
+      projectName: "United States Hospital Admissions",
       footerLink: [
         {
           name: "Visit Dashboard",
-          url: "https://public.tableau.com/views/BritishAirwaysReviews_17417630078210/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link"
+          url: "https://public.tableau.com/app/profile/prayuja/viz/UnitedStatesHospitalAdmissions_17504457190770/Story2"
         }
       ]
     },
