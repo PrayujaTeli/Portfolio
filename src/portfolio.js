@@ -19,7 +19,7 @@ const greeting = {
   username: "Prayuja Teli",
   title: "Hi all, I'm Prayuja",
   subTitle: emoji(
-    "A Data Analyst with over 6 years of experience in the Healthcare, Information Technology, and Supply Chain Management industries, specializing in analyzing datasets related to COVID-19, breast cancer, diabetes, Alzheimer’s, and kidney disease. I excel in Python, SQL, and data visualization tools. Alma mater: Drexel University"
+    "A Data Engineer/Analyst with over 6 years of experience in the Healthcare, Information Technology, and Supply Chain Management industries, specializing in analyzing datasets related to COVID-19, breast cancer, diabetes, Alzheimer’s, and kidney disease. I excel in Python, SQL, and data visualization tools. Alma mater: Drexel University"
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
@@ -40,7 +40,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I Do",
-  subTitle: "PASSIONATE DATA ANALYST WHO TURNS DATA INTO ACTIONABLE INSIGHTS",
+  subTitle: "PASSIONATE DATA ENGINEER/ANALYST WHO TURNS DATA INTO ACTIONABLE INSIGHTS",
   skills: [
     emoji("⚡ Collect, clean, and preprocess large datasets for analysis"),
     emoji("⚡ Develop data visualizations and dashboards to uncover trends"),
@@ -173,18 +173,18 @@ const workExperiences = {
       company: "McCollister’s Global Services, Inc.",
       companylogo: require("./assets/images/mccollistersLogo.jpg"),
       date: "Jul 2024 - Jan 2025",
-      desc: " Data System Analyst Intern",
+      desc: "System Analyst Intern (Data Processing Co-op)",
       descBullets: [
         "Generated a Power BI dashboard for payroll to reduce discrepancies by 15% and cut processing time by 20%.",
         "Analyzed over 200,000 logistics records to optimize transportation routes and reduce costs by 15%."
             ]
     },
     {
-      role: "Associate Data Analyst",
+      role: "Associate Data Engineer/Analyst",
       company: "Krishagni Solutions Pvt Ltd (OpenSpecimen Bio-banking LIMS)",
       companylogo: require("./assets/images/krishagniLogo.png"),
       date: "Apr 2019 - Sep 2023",
-      desc: "Data Analyst",
+      desc: "Associate Data Engineer/Analyst",
       descBullets: [
         "Created 25+ Tableau dashboards analyzing patient trends in COVID-19, Alzheimer’s, HIV, and cancer.",
         "Cleaned 200+ research documents, improving workflow efficiency by 35% and researcher adoption.",
