@@ -236,7 +236,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit Dashboard",
-          url: "https://public.tableau.com/views/HealthcareDataViz_17417645597010/CostDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link"
+          url: "https://public.tableau.com/app/profile/prayuja/viz/PatientDataAnalysis_17504461636520/CostDashboard"
         }
       ]
     }
