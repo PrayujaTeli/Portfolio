@@ -226,7 +226,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit Dashboard",
-          url: "https://public.tableau.com/app/profile/prayuja/viz/UnitedStatesHospitalAdmissions_17504457190770/Story2"
+          url: "https://public.tableau.com/views/UnitedStatesHospitalAdmission/Story?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link"
         }
       ]
     },
